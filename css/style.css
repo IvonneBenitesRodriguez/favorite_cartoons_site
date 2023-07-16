@@ -16,6 +16,7 @@ header{
     align-items: center;
     flex-direction: row;
     gap: 120px;
+    padding-right: 5%;
 }
 h1.title.title-desktop a{
     text-decoration: none;
