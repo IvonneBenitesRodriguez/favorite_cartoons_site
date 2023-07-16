@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: nunito;
+    src: url(../fonts/Nunito/static/Nunito-Black.ttf);
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 5% 5%;
+    align-items: center;
+    flex-direction: row;
+    gap: 120px;
+  
+}
+h1.title.title-desktop a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #5c5470;
+    font-family: nunito;
+}
+nav img{
+    width: 40px;
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 180px;
+    background: no-repeat center/ 98% url(../img/fondo-ios.png);
+}    
+h2.sign{
+padding-top: 5%;
+padding-left: 5%;
+padding-bottom: 5%;
+color: #5c5470;
+font-family: nunito;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+input{
+    border: 1px solid #5c5470;
+    padding: 5%;
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #172b4d;
+    width: 100%;
+    margin-bottom: 6px;
+}
+.label-pass{
+    margin-bottom: 16px;
+}
+label.label-mobile{
+font-family: nunito;
+font-size: 18px;
+color: #5c5470;
+}
+
+.btn-mobile{
+    background: #F0C1EA;
+    border: 1px solid #F0C1EA;
+    color: #5c5470;
+    box-shadow: 2px 2px 4px rgb(rgb(240, 193, 234));
+    font-family: nunito;
+    font-size: 1.3rem;
+}
