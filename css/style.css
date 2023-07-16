@@ -11,11 +11,11 @@ header{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    padding: 5% 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     align-items: center;
     flex-direction: row;
     gap: 120px;
-  
 }
 h1.title.title-desktop a{
     text-decoration: none;
