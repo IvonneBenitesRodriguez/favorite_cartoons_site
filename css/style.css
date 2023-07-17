@@ -9,14 +9,14 @@
 }
 header{
     display: flex;
-    justify-content: space-evenly;
     width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
     align-items: center;
     flex-direction: row;
-    gap: 120px;
+    gap: 164px;
     padding-right: 5%;
+    padding-left: 5%;
 }
 h1.title.title-desktop a{
     text-decoration: none;
