@@ -8,10 +8,12 @@
   font-family: nunito;
   src: url(../fonts/Nunito/static/Nunito-Black.ttf);
 }
+
 @font-face {
-    font-family: nunito-thin;
-    src: url(../fonts/Nunito/static/Nunito-Light.ttf);
+  font-family: nunito-thin;
+  src: url(../fonts/Nunito/static/Nunito-Light.ttf);
 }
+
 header {
   display: flex;
   width: 100%;
@@ -23,6 +25,15 @@ header {
   padding-right: 5%;
   padding-left: 5%;
   justify-content: space-between;
+}
+
+span.connect a {
+  text-align: justify;
+  text-decoration: none;
+  font-family: nunito, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  cursor: pointer;
 }
 
 h1.title.title-desktop a {
@@ -47,18 +58,20 @@ nav img {
   height: 82%;
   padding: 200px 24px;
 }
-.background-text{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 100%;
-    animation-duration: 3s;
-    animation-name: slidein;
+
+.background-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
-p.background-text{
-    font-size: 2rem;
-    font-family: nunito, sans-serif;
-    color: #5c5470;
-    font-weight: 700;
+
+p.background-text {
+  font-size: 2rem;
+  font-family: nunito, sans-serif;
+  color: #5c5470;
+  font-weight: 700;
 }
 
 h2.sign {
@@ -109,127 +122,134 @@ label.label-mobile {
   font-family: nunito, sans-serif;
   font-size: 1.3rem;
 }
-.works{
-    padding: 5% 5% 20%;
+
+.works {
+  padding: 5% 5% 20%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.img-work {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div.work-card {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2.title-card {
+  text-align: center;
+  font-family: nunito, sans-serif;
+  font-size: 1.5rem;
+  color: #5c5470;
+}
+
+span.title-work {
+  text-align: center;
+  font-family: nunito, sans-serif;
+  font-size: 1.2rem;
+}
+
+button.btn-card {
+  text-align: center;
+  background-color: #f0c1ea;
+  padding: 2%;
+  border: 1px solid #f0c1ea;
+  color: #5c5470;
+  font-family: nunit, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.about-us {
+  padding-top: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #f0c1ea;
+  padding-bottom: 80px;
+  border-top-left-radius: 80px 80px;
+}
+
+h3.about-us-title {
+  font-size: 2rem;
+  font-family: nunito, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+p.about-us-paragraph {
+  font-family: nunito-thin, sans-serif;
+  color: #5c5470;
+  line-height: 23px;
+  word-spacing: 0.67px;
+  font-size: 1.2rem;
+  font-style: normal;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+ul.categories {
+  display: flex;
+}
+
+ul.categories li {
+  list-style-type: none;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-family: nunito, sans-serif;
+  color: #5c5470;
+  line-height: 23px;
+  word-spacing: 0.67px;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+p.text-card {
+  text-align: start;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-family: nunito-thin, sans-serif;
+  color: #5c5470;
+  line-height: 23px;
+  word-spacing: 0.67px;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+span.connect a:hover {
+  background: #5c5470;
+  color: #f0c1ea;
+}
+
+div.social-network-icons ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .background {
+    padding: 420px 24px;
+  }
+
+  .work-card {
     display: grid;
-    grid-template-columns: 1fr;
-}
-.img-work{
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-div.work-card{
-text-align: center;
-padding-top: 20px;
-padding-bottom: 20px;
-}
-h2.title-card{
-    text-align: center;
-    font-family: nunito, sans-serif;
-    font-size: 1.5rem;
-    color: #5c5470;
-}
-span.title-work{
-    text-align: center;
-    font-family: nunito, sans-serif;
-    font-size: 1.2rem;
-}
-button.btn-card{
-    text-align: center;
-    background-color: #f0c1ea;
-    padding: 2%;
-    border: 1px solid #f0c1ea;
-    color: #5c5470;
-    font-family: nunit, sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    padding-bottom: 10px;
-    cursor: pointer;
-}
-.about-us{
-    padding-top: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background: #f0c1ea;
-    padding-bottom: 80px;
-    border-top-left-radius: 80px 80px;
-}
-h3.about-us-title{
-    font-size: 2rem;
-    font-family: nunito, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-}
-p.about-us-paragraph{
-    font-family: nunito-thin,sans-serif;
-    color: #5c5470;
-    line-height: 23px;
-    word-spacing: 0.67px;
-    font-size: 1.2rem;
-    font-style: normal;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    text-align: justify;
-}
-ul.categories{
-    display: flex;
-}
-ul.categories li{
-    list-style-type: none;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    font-family: nunito,sans-serif;
-    color: #5c5470;
-    line-height: 23px;
-    word-spacing: 0.67px;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 700;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    gap: 20px;
+  }
 
-}
-p.text-card{
-    text-align: start;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    font-family: nunito-thin,sans-serif;
-    color: #5c5470;
-    line-height: 23px;
-    word-spacing: 0.67px;
-    font-size: 1.2rem;
-    font-style: normal;
-}
-span.connect a{
-    text-align: justify;
-    text-decoration: none;
-    font-family: nunito, sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    cursor: pointer;
-}
-span.connect a:hover{
-    background: #5c5470;
-    color: #f0c1ea;
-}
-div.social-network-icons ul{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding-top: 30px;
-}
-@media screen and (min-width: 768px){
-    .background{
-        padding: 420px 24px;
-    }
-    .work-card{
-     display: grid;
-     grid-template-columns: 50% 50%;
-     align-items: center;
-     gap: 20px;
-    }
-    h2.title-card{
-        padding-bottom: 40px;
-        font-size: 2.5rem;
-    }
-
+  h2.title-card {
+    padding-bottom: 40px;
+    font-size: 2.5rem;
+  }
 }
