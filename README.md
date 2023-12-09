@@ -1,9 +1,9 @@
 # favorite_cartoons_site 🌷
 
-<img src="img/cartoon1.png" width="200" height="200">
-![Alt Text](img/cartoon2.png){width=200 height=200}
-![Alt Text](img/cartoon3.png){width=200 height=200}
-![Alt Text](img/cartoon4.png){width=200 height=200}
+<img src="img/cartoon1.png" width="300" height="200">
+<img src="img/cartoon2.png" width="300" height="200">
+<img src="img/cartoon3.png" width="300" height="200">
+<img src="img/cartoon4.png" width="300" height="200">
 
 # 📗 Table of Contents
 
