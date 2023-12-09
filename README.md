@@ -1,9 +1,9 @@
 # favorite_cartoons_site 🌷
 
-![Alt Text](img/cartoon1.png)
-![Alt Text](img/cartoon2.png)
-![Alt Text](img/cartoon3.png)
-![Alt Text](img/cartoon4.png)
+{![Alt Text](img/cartoon1.png){width=200 height=200}
+![Alt Text](img/cartoon2.png){width=200 height=200}
+![Alt Text](img/cartoon3.png){width=200 height=200}
+![Alt Text](img/cartoon4.png){width=200 height=200}
 
 # 📗 Table of Contents
 
@@ -26,9 +26,14 @@
 <!-- PROJECT DESCRIPTION -->
 
 # [favorite_cartoons_site] <a name="about-project"></a>
-*favorite cartoons site* is a single page built in HTML and CSS. 
+*Favorite cartoons site* is a single page built in HTML and CSS. 
 It is a friendly responsive site.
 <br/>
+
+🚀 Please visit my site:<br/>
+[Link]: https://ivonnebenitesrodriguez.github.io/favorite_cartoons_site/
+<br/>
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,10 +71,10 @@ To get a local copy up and running, follow these steps.
 
 ### 🌷Prerequisites
 
-In order to run this project you need:
+In order to build this project you need:
 
 ```sh
- gem Postgres
+ install visual code
 ```
 
 ### 🌷Setup
